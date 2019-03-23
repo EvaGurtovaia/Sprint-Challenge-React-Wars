@@ -1,0 +1,39 @@
+ul{
+    list-style-type: none;
+    padding-top:15px;
+   
+}
+li{
+    margin-top:50px;
+}
+.cards_container{
+    margin:0 auto;
+    width:75%;
+    background:#90f9e6;
+    border-radius: 7px;
+    opacity: 0.5;
+}
+.character{
+    margin:0 auto;
+    background: #54a0da;
+    width:75%;
+    border-radius: 12px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    
+ } 
+ h1 {
+     padding-top: 10px;
+     padding-bottom: 5px;
+ }
+ .list {
+     padding-top: 10px;
+     padding-bottom: 10px;
+ }
+ 
+ .list h1 span {
+     font-size: 20px;
+     font-weight: bold;
+     color: #443e3e;
+     text-shadow: 1px 1px 5px #fff;
+ }
