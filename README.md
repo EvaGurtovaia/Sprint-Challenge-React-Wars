@@ -25,12 +25,13 @@ In this challenge, create a web page that presents a styled list of Star Wars ch
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
-
+React JS is a library for building users interfaces, it alows us to build an app with components.
 - [ ] What does it mean to _think_ in react?
-
+It means to think in term of components.
 - [ ] Describe state.
-
+The state starts with a default value when a component mounts and then suffers from mutations in time (mostly generated from user events). A Component manages its own state internally, but - besides setting an initial state - has no business fiddling with the state of its children.  You could say the state is private. 
 - [ ] Describe props.
+Props is a a plain JavaScript object. They are a Component's configuration, its options if you may. They are received from above and immutable as far as the Component receiving them is concerned. A Component cannot change its props, but it responsible for putting together the props of its child Components.
 
 ## Project Set Up
 
